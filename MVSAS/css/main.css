@@ -1,0 +1,168 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+.main_container{
+  background: url(../images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  height:100vh;
+  text-align: center;
+  color:white;
+  font-family:century;
+}
+.container{
+  position: absolute;
+  top:40%;
+  margin: auto;
+  left:20%;
+}
+.container h1{
+  text-transform:uppercase;
+}
+.container a{
+  background-color:white;
+  color:black;
+  padding-left:3%;
+  padding-right:3%;
+  padding-top:1%;
+  padding-bottom:1.5%;
+  text-decoration:none;
+  font:18px century;
+  border-radius:3px;
+  border:2px solid white;
+  -webkit-transition:background .5s;
+}
+.container a:hover{
+  background-color:transparent;
+  color:white;
+}
+/*--------------major-----------*/
+.major_container{
+  text-align: center;
+  color:black;
+  font-family:century;
+}
+.major_container h1{
+  padding-top:5%;
+}
+.major_container table{
+  margin:auto;
+  padding:1%;
+}
+input{
+    background-color:rgba(0, 0, 0, .2);
+    border:1px solid white;
+    padding:1%;
+    border-radius:3px;
+    color:white;
+    margin:1%;
+    width:30%;
+}
+input:focus{
+  background-color:rgba(0, 0, 0, .5);
+}
+.car_data{
+  padding-top:3%;
+}
+button{
+  background-color:#19f2b2;
+  border:2px solid #19f2b2;
+  color:white;
+  width:10%;
+  padding:1%;
+  cursor:pointer;
+  font:15px century;
+  border-radius:3px;
+  -webkit-transition:background .5s;
+}
+button:hover{
+  background-color:transparent;
+  color:black;
+}
+/*-----------------Repairs------------*/
+._container{
+  text-align: center;
+  color:black;
+  font-family:century;
+}
+.repair_data table{
+  margin: auto;
+  padding:2%;
+}
+td{
+  text-align: left;
+}
+.car_condition{
+  background-color:rgba(0, 0, 0, .2);
+  border:1px solid white;
+  color:black;
+  width:120%;
+}
+/*--------------Repair Data---------*/
+.repair_container{
+  margin:auto;
+  background-color:white;
+  width:40%;
+  text-align: center;
+}
+.repair_container table{
+  margin: auto;
+  padding:5%;
+}
+.repair_container td{
+  margin:1%;
+  border:1px solid black;
+}
+.error{
+  background-color:rgba(255, 0, 0, .7);
+  width:70%;
+  padding:1%;
+  margin:1%;
+  margin:auto;
+  color:white;
+  border-radius:3px;
+}
+.subtle{
+  padding:10%;
+}
+.red{
+  padding:5%;
+}
+.subtle a{
+  text-decoration:none;
+  font:15px century;
+  border:2px solid #2d2d2d;
+  background-color:#2d2d2d;
+  border-radius:3px;
+  color:white;
+  padding:3%;
+  -webkit-transition:background .5s;
+}
+.subtle a:hover{
+  background-color:transparent;
+  color:black;
+}
+.success{
+  background-color:rgba(10, 229, 56, .9);
+  width:80%;
+  padding:1%;
+  margin:auto;
+  color:white;
+  border-radius:3px;
+}
+/*-------------checkout----------*/
+.leaving{
+  padding:5%;
+  text-align:center;
+  font-family:century;
+}
+.leaving table{
+  margin: auto;
+}
+.leaving td{
+  border:1px solid black;
+}
